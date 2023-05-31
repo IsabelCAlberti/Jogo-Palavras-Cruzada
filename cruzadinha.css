@@ -6,7 +6,7 @@
  
  body{
     background-color: #897db6;
-     overflow-x: none;
+    overflow-x: none;
  }
 
 .conteudo {
@@ -26,7 +26,7 @@ input {
   text-align: center;
   text-transform: uppercase;
   margin: 0vw;
-   font-weight: bold;
+  font-weight: bold;
   box-shadow: 6px 6px 3px -3px rgba(0, 0, 0, 0.75);
 }
 
@@ -56,10 +56,10 @@ td {
   display: none;
   box-shadow: 6px 6px 3px -3px rgba(0, 0, 0, 0.75);
 }
-
 .apareceu {
   display: block;
 }
+
 
 .question-box p {
   color: white;
@@ -126,7 +126,6 @@ button:hover {
   color: white;
   font-size: 30px;
 }
-
 #div_mascara {
   width: 100%;
   height: 120vh;
@@ -134,12 +133,10 @@ button:hover {
   display: none;
   z-index: 99;
 }
-
 h1{
-  text-align: center;
-  padding-top: 50px;
+text-align: center;
+padding-top: 50px;
 }
-
 @keyframes errou {
   0% {
     background-color: rgba(255,0,0,0.72);
@@ -151,7 +148,6 @@ h1{
     background-color: rgba(255,0,0,0.72);
   }
 }
-
 @keyframes acertou {
   0% {
     background-color: rgba(0,255,0,0.72);
@@ -163,12 +159,10 @@ h1{
     background-color: rgba(0,255,0,0.72);
   }
 }
-
 #div_mascara.animacao_errou {
   display: block;
   animation: errou 1.5s;
 }
-
 #div_mascara.animacao_acertou {
   display: block;
   animation: acertou 1.5s;

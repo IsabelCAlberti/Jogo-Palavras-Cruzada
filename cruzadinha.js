@@ -39,7 +39,7 @@ function resposta(resposta) {
   }
 }
 
-function verificar() {
+function verificar(respondendo) {
   if (respondendo == 1) {
     let resposta1 = in_palavra_1[0].value;
     resposta1 += in_palavra_1[1].value;
@@ -334,7 +334,7 @@ function verificar() {
 
     if (resposta9 == "cs") {
       in_palavra_1[0].style = "color: green;";
-      in_palavra_10[0].style = "color: green;";
+      in_palavra_10.style = "color: green;";
       div_mascara.classList.add("animacao_acertou");
       setTimeout(function () {
         div_mascara.classList.remove("animacao_acertou");
