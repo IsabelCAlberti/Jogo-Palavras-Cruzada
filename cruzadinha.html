@@ -10,7 +10,8 @@
     <title>Cruzadinha</title>
 </head>
 
-<body onload="carregar()">
+<body>
+    <div id="div_mascara"></div>
     <h1>PALAVRAS CRUZADAS</h1>
           <div id="resultado" class="box-container">
             <div class="erro_resposta" id="boxResposta"></div>
@@ -402,18 +403,18 @@
 
         <!-- QUESTÕES -->
 
-        <div id="dicas">
-                       <div id="idQuestionBox1" class="question-box">
+        <div id="perguntas">
+                       <div id="idQuestionBox1" class="question-box apareceu">
                 <p>1) Peça responsável por processar e realizar as tarefas na ordem em que são recebidas:</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(1)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(1)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -425,13 +426,13 @@
                     soma, subtração e comparação entre números:</p>
                     <div class="botoes">
                         <div id="botao">
-                            <button onclick="resposta()">RESPOSTA</button>
+                            <button onclick="resposta(2)">RESPOSTA</button>
                         </div>
                         <div id="botao">
                             <button onclick="verificar()">VERIFICAR</button>
                         </div>
                         <div id="botao">
-                            <button onclick="proxima()">PRÓXIMA</button>
+                            <button onclick="proxima(2)">PRÓXIMA</button>
                         </div>
                     </div>
             </div>
@@ -440,13 +441,13 @@
                 <p>3) Dentro da CPU, atuam como memória de mais alta hierarquia.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(3)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(3)">PRÓXIMA</button>
                     </div>
                 </div>
                 </div>
@@ -455,13 +456,13 @@
                 <p>4) Memória volátil. Permite o acesso aos arquivos armazenados no computador. </p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(4)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(4)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -473,13 +474,13 @@
                     precisam ser lidas antes do sistema iniciar.</p>   
                        <div class="botoes">
                         <div id="botao">
-                            <button onclick="resposta()">RESPOSTA</button>
+                            <button onclick="resposta(5)">RESPOSTA</button>
                         </div>
                         <div id="botao">
                             <button onclick="verificar()">VERIFICAR</button>
                         </div>
                         <div id="botao">
-                            <button onclick="proxima()">PRÓXIMA</button>
+                            <button onclick="proxima(5)">PRÓXIMA</button>
                         </div>
                     </div>
             </div>
@@ -490,13 +491,13 @@
                 <p>6) Memória não volátil e apagável através da exposição de luz ultravioleta.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(6)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(6)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -508,13 +509,13 @@
                 </p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(7)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(7)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -525,13 +526,13 @@
                 <p>8) Memória não volátil, serve para armazenar grandes quantidades de dados.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(8)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(8)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -542,13 +543,13 @@
                 <p>9) Método que controla o acesso á memória, sem precisar de uma intervenção da CPU.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(9)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(9)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -559,13 +560,13 @@
                 <p>10) Linha de controle que permite à CPU acessar memórias.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(10)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(10)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -577,13 +578,13 @@
                     enviado após o processamento.</p>
                     <div class="botoes">
                         <div id="botao">
-                            <button onclick="resposta()">RESPOSTA</button>
+                            <button onclick="resposta(11)">RESPOSTA</button>
                         </div>
                         <div id="botao">
                             <button onclick="verificar()">VERIFICAR</button>
                         </div>
                         <div id="botao">
-                            <button onclick="proxima()">PRÓXIMA</button>
+                            <button onclick="proxima(11)">PRÓXIMA</button>
                         </div>
                     </div>
             </div>
@@ -594,13 +595,13 @@
                 <p>12) Barramento responsável pela troca de dados entre componentes de um computador.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(12)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(12)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -612,13 +613,13 @@
                     memória cache e é considerado um processador de nível intermediário.</p>
                     <div class="botoes">
                         <div id="botao">
-                            <button onclick="resposta()">RESPOSTA</button>
+                            <button onclick="resposta(13)">RESPOSTA</button>
                         </div>
                         <div id="botao">
                             <button onclick="verificar()">VERIFICAR</button>
                         </div>
                         <div id="botao">
-                            <button onclick="proxima()">PRÓXIMA</button>
+                            <button onclick="proxima(13)">PRÓXIMA</button>
                         </div>
                     </div>
             </div>
@@ -630,13 +631,13 @@
                     8GB de memória cache e é considerado um processador top de linha.</p>
                     <div class="botoes">
                         <div id="botao">
-                            <button onclick="resposta()">RESPOSTA</button>
+                            <button onclick="resposta(14)">RESPOSTA</button>
                         </div>
                         <div id="botao">
                             <button onclick="verificar()">VERIFICAR</button>
                         </div>
                         <div id="botao">
-                            <button onclick="proxima()">PRÓXIMA</button>
+                            <button onclick="proxima(14)">PRÓXIMA</button>
                         </div>
                     </div>
             </div>
@@ -647,13 +648,13 @@
                 <p>15) Categoria de CPU que possui apenas 2 núcleos de processamento.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(15)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(15)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
@@ -664,13 +665,13 @@
                 <p>16) Categoria de CPU que possui 4 núcleos de processamento.</p>
                 <div class="botoes">
                     <div id="botao">
-                        <button onclick="resposta()">RESPOSTA</button>
+                        <button onclick="resposta(16)">RESPOSTA</button>
                     </div>
                     <div id="botao">
                         <button onclick="verificar()">VERIFICAR</button>
                     </div>
                     <div id="botao">
-                        <button onclick="proxima()">PRÓXIMA</button>
+                        <button onclick="proxima(16)">PRÓXIMA</button>
                     </div>
                 </div>
             </div>
