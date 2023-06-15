@@ -25,7 +25,7 @@ function resposta(resposta) {
   } else if (resposta == 10) {
     resultado.innerHTML = `CS`;
   } else if (resposta == 11) {
-    resultado.innerHTML = `ADRESS BUS`;
+    resultado.innerHTML = `ADDRESS BUS`;
   } else if (resposta == 12) {
     resultado.innerHTML = `DATA BUS`;
   } else if (resposta == 13) {
@@ -352,24 +352,26 @@ function verificar(respondendo) {
   } else if (respondendo == 11) {
     let resposta11 = in_palavra_8[13].value;
     resposta11 += in_palavra_11[0].value;
-    resposta11 += in_palavra_6[0].value;
     resposta11 += in_palavra_11[1].value;
+    resposta11 += in_palavra_6[0].value;
     resposta11 += in_palavra_11[2].value;
     resposta11 += in_palavra_3[4].value;
     resposta11 += in_palavra_11[3].value;
     resposta11 += in_palavra_11[4].value;
     resposta11 += in_palavra_11[5].value;
+    resposta11 += in_palavra_11[6].value;
 
-    if (resposta11 == "adressbus") {
+    if (resposta11 == "addressbus") {
       in_palavra_8[13].style = "color: green;";
       in_palavra_11[0].style = "color: green;";
-      in_palavra_6[0].style = "color: green;";
       in_palavra_11[1].style = "color: green;";
+      in_palavra_6[0].style = "color: green;";
       in_palavra_11[2].style = "color: green;";
       in_palavra_3[4].style = "color: green;";
       in_palavra_11[3].style = "color: green;";
       in_palavra_11[4].style = "color: green;";
       in_palavra_11[5].style = "color: green;";
+      in_palavra_11[6].style = "color: green;";
       div_mascara.classList.add("animacao_acertou");
       setTimeout(function () {
         div_mascara.classList.remove("animacao_acertou");
@@ -378,13 +380,14 @@ function verificar(respondendo) {
     } else {
       in_palavra_8[13].style = "color: red;";
       in_palavra_11[0].style = "color: red;";
-      in_palavra_6[0].style = "color: red;";
       in_palavra_11[1].style = "color: red;";
+      in_palavra_6[0].style = "color: red;";
       in_palavra_11[2].style = "color: red;";
       in_palavra_3[4].style = "color: red;";
       in_palavra_11[3].style = "color: red;";
       in_palavra_11[4].style = "color: red;";
       in_palavra_11[5].style = "color: red;";
+      in_palavra_11[6].style = "color: red;";
 
       div_mascara.classList.add("animacao_errou");
       setTimeout(function () {
