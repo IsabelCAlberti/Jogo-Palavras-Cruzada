@@ -5,11 +5,34 @@
  }
  
  body{
-  width: 100%;
-  height: 100%;
-    background-color: #897db6;
+     background-color: #897db6;
     background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p1/2254545-lilas-pastel-roxo-cor-aquarela-textura-fundo-foto.jpg");
   }
+
+  .modal {
+    position: absolute;
+    width: 56%;
+    top: 20%;
+    left: 15%;
+    padding: 7%;
+    background: #fff;
+    border-radius: 1em;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .fade {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+
+.start{
+padding: 5px;
+margin-top: 8px;
+ }
 
 .conteudo {
   display: flex;
@@ -112,8 +135,7 @@ h1{
   font-size: 2.5vw;
   font-weight: bolder;
 text-align: center;
-padding-top: 50px;
-color: white;
+color: rgb(97, 87, 87);
 }
 
 @keyframes errou {

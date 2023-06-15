@@ -567,3 +567,9 @@ function proxima(numero) {
   }
   perguntaAnterior.classList.remove("apareceu");
 }
+
+
+function inicio(){
+  document.getElementById('id01').style.display='none'
+  document.getElementById('id02').style.display='none'
+}
